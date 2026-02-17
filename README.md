@@ -49,7 +49,7 @@ https://exampleN.com
 
 ### Command line
 ```bash
-python3 cache_detector.py -i cache_input.txt -o results.txt -t 0.3 -r 4
+python3 cacheit.py -i cache_input.txt -o results.txt -t 0.3 -r 4
 ```
 
 | Argument | Description                | Default                       |
@@ -60,6 +60,8 @@ python3 cache_detector.py -i cache_input.txt -o results.txt -t 0.3 -r 4
 | `-r`,`--hits`     | Number of HTTP requests after the baseline to detect HITs | `2` |
 
 ### Output
+![](banner.png)
+
 `cache_detection_results.txt`:
 ```bash
 https://example1.com:8080/?cbuster=448644 (H: 0.05s, M: 0.13s) -> X-Cache-Hits: 1 (Fastly)
