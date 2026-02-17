@@ -60,7 +60,7 @@ python3 cacheit.py -i cache_input.txt -o results.txt -t 0.3 -r 4
 | `-r`,`--hits`     | Number of HTTP requests after the baseline to detect HITs | `2` |
 
 ### Output
-![](banner.png)
+![](https://3928478158-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhjMjdRXwO33Lfo7uCpl6%2Fuploads%2Fgit-blob-e2de5f3812b89e6b453a674dc287b3b3d4ebf7f0%2Fbanner.png?alt=media)
 
 `cache_detection_results.txt`:
 ```bash
